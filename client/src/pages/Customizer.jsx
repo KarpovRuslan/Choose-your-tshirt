@@ -50,7 +50,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
       console.log(prompt);
-      const response = await fetch("http://localhost:5050/api/v1/dalle", {
+      const response = await fetch("https://project-tshirt-design.onrender.com/api/v1/dalle", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
